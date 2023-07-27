@@ -1,6 +1,13 @@
-import java.util.List;
-
+/**
+ * Интерфейс, определяющий функционал торгового автомата.
+ */
 public interface VendingMachine {
-    void initProducts(List<Product> products);
-    Product getProduct(String name);
+    /**
+     * Получает продукт по его имени.
+     *
+     * @param name имя продукта
+     * @return продукт
+     * @throws IllegalStateException если продукт не найден
+     */
+    Product getProduct(String name) throws IllegalStateException;
 }
