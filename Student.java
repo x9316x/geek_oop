@@ -4,8 +4,8 @@ public class Student {
     private String secondName;
     private String lastName;
 
-    public Student(int studentNumber, String firstName, String secondName, String lastName) {
-        this.numberOfStudent = studentNumber;
+    public Student(int numberOfStudent, String firstName, String secondName, String lastName) {
+        this.numberOfStudent = numberOfStudent;
         this.firstName = firstName;
         this.secondName = secondName;
         this.lastName = lastName;
