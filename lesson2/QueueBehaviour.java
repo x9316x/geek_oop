@@ -1,3 +1,4 @@
+package lesson2;
 public interface QueueBehaviour {
     
     void takeInQueue(Actor actor);

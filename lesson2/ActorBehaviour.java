@@ -1,3 +1,4 @@
+package lesson2;
 public interface ActorBehaviour {
     void setMakeOrder(boolean status);
     void setTakeOrder(boolean status);
