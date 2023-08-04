@@ -1,22 +1,22 @@
 public class Student {
-    private int studentNumber;
+    private int numberOfStudent;
     private String firstName;
     private String secondName;
     private String lastName;
 
     public Student(int studentNumber, String firstName, String secondName, String lastName) {
-        this.studentNumber = studentNumber;
+        this.numberOfStudent = studentNumber;
         this.firstName = firstName;
         this.secondName = secondName;
         this.lastName = lastName;
     }
 
-    public int getStudentNumber() {
-        return studentNumber;
+    public int getNumberOfStudent() {
+        return numberOfStudent;
     }
 
-    public void setStudentNumber(int number) {
-        this.studentNumber = number;
+    public void setNumberOfStudent(int number) {
+        this.numberOfStudent = number;
     }
 
     public String getFirstName() {
@@ -46,7 +46,7 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "studentNumber=" + studentNumber +
+                "studentNumber=" + numberOfStudent +
                 ", firstName='" + firstName + '\'' +
                 ", secondName='" + secondName + '\'' +
                 ", lastName='" + lastName + '\'' +
